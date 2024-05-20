@@ -1,4 +1,6 @@
 # Peer-to-Peer-Socket-Project-
+Files Included: manager.py (Server Process), player.py (Client Process) and Socket Project.pdf (detailed description of the project)
+
 This was a project that was completed in a group of 2 people.
 Implemented a peer-to-peer application program in which processes communicate using sockets to play the card game of“Go Fish” using Python.
 The objective of the game is to win the most books of cards, the game ends when all thirteen books have been won
