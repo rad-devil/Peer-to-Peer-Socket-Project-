@@ -12,17 +12,19 @@ When a peer wants to start a game of Go Fish, it requests 1 ≤ k ≤ 4 other pe
 
 The dealer shuffles the cards and then deals each player 5 or 7 cards  face down, starting with the player to the its left in the ring. The game then proceeds according to the rules of the game. Once all “books” have been won, the dealer announces the winner as the player with the most books, and the game terminates.
 
-Lessons Learned:
+**Lessons Learned:**
 
-Establishing socket connection and using P2P connection between the clients (Players)
+1. Establishing socket connection and using P2P connection between the clients (Players)
 
-Establishing socket connection between the Clients and Server
+2. Establishing socket connection between the Clients and Server
 
-Defining Message Exchange and Message Formats between Clients and Server
+3. Defining Message Exchange and Message Formats between Clients and Server
 
-Maintaing and binding different Port Number for clients and the server
+4. Maintaing and binding different Port Number for clients and the server
 
-How to use a single threaded application architecture to manage communication between multiple processes and to ensure that the communication between them is non-blocking  while recieving messages from the socket(ie. it will return immediately even if there is no message) so that it doesn't create a deadlock
+5. How to use a single threaded application architecture to manage communication between multiple processes and to ensure that the communication  
+   between them is non-blocking  while recieving messages from the socket(ie. it will return immediately even if there is no message) so that it 
+   doesn't create a deadlock
 
 
 
