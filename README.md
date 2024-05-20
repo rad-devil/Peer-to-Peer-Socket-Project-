@@ -22,9 +22,7 @@ The dealer shuffles the cards and then deals each player 5 or 7 cards  face down
 
 4. Maintaing and binding different Port Number for clients and the server
 
-5. How to use a single threaded application architecture to manage communication between multiple processes and to ensure that the communication  
-   between them is non-blocking  while recieving messages from the socket(ie. it will return immediately even if there is no message) so that it 
-   doesn't create a deadlock
+5. How to use a single threaded application architecture to manage communication between multiple processes and to ensure that the communication between them is non-blocking  while recieving messages from the socket(ie. it will return immediately even if there is no message) so that it doesn't create a deadlock
 
 
 
